@@ -35,20 +35,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-- name: Ponicode Unit Test
-  # You may pin to the exact commit or the version.
-  # uses: ponicode/unit-testing-action@dcb3d0d0e21d55a63f3bd58fa5f9aaa7ec447f52
-  uses: ponicode/unit-testing-action@0.2.0
-  with:
-    # String: URL of the repo to be processed
-    repoUrl: 
-    # String: Ponicode UT user token from Github Secrets
-    ponicodeUtToken: 
-    # GitHub token to generate some comments into the PR
-    githubToken: 
-    # String[]: List of the files updated in the PR
-    impactedFiles: 
-    # String: branch on which the PR applies
-    branch: # default is master
-    # Comment the generated UT
-    commentUTs: 
+
